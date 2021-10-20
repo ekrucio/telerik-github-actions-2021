@@ -1,5 +1,5 @@
-name: leatn-github-actions
-on: [pish]
+name: learn-github-actions
+on: [push]
 jobs:
   hello-actions:
     runs-on: ubintu-latest
