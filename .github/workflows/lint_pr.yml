@@ -1,5 +1,5 @@
-name: Deployment-of-python-app
-on: [push]
+name: Lint on PR
+on: [pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
