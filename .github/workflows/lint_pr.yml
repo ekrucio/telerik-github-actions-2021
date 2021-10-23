@@ -1,4 +1,4 @@
-name: Lint on PR
+name: Lint on PR_2
 on: [pull_request]
 jobs:
   build:
