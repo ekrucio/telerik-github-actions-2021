@@ -1,5 +1,8 @@
-name: Lint on PR
-on: [pull_request]
+name: Lint on PR_2
+on:
+  pull_request:
+    paths:
+      - '**.py'
 jobs:
   build:
     runs-on: ubuntu-latest
